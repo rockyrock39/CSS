@@ -1,0 +1,16 @@
+#mainHeading {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .textStyle {
+    text-align: center;
+      font-size: 30px;
+  }
+  .backgroundExample{
+  font-size: 1.5em;    
+  }
+  img{
+      width: 40%;
+      height: 22rem;
+  }
+  

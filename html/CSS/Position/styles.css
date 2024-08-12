@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: linear-gradient(to bottom right,blue,red);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width :100%;
+  }
+  
+  .overlay {
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top:130px;
+    width:70%;
+    
+   
+ 
+    
+  }
+  .overlay:hover{
+    filter: brightness(80%);
+  }
+  
+  .overlay img {
+    border-radius: 10px;
+    display: block;  
+    width: 100%;
+    
+  }
+  
+  .text-overlay {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+      width:30%;
+      top: 50%;
+      left :30%;
+  }
+  
+  .text-overlay h2,
+  .text-overlay p {
+    margin: 0;
+  }

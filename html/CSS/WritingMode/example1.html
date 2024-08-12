@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .container {
+            width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+          }
+          
+          .left {
+            width: 50%;
+            background-color: #ff847c;
+            color: #fff;
+            padding: 40px;
+            box-sizing: border-box;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            float: left;
+            margin-right: 20px;
+          }
+          
+          .right {
+            width: 50%;
+            background-color: #70c1b3;
+            color: #fff;
+            padding: 40px;
+            box-sizing: border-box;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            float: right;
+          }
+          .content{
+            writing-mode: vertical-rl;
+            margin-left: 110px;
+          }
+    </style>
+    <title>Float and Writing-mode Demo</title>
+  </head>
+  <body>
+    <section class="container">
+      <article class="left">
+        <h2>Float and Writing-mode Demo</h2>
+        <p>
+          This is a demonstration of the float and writing-mode properties in
+          CSS.
+        </p>
+        <p>
+          The float property is used to push an element to the left or right,
+          allowing other elements to wrap around it.
+        </p>
+        <p>
+          The writing-mode property changes the direction in which content is
+          laid out.
+        </p>
+      </article>
+      <article class="right">
+        <div class="content">
+          <h2>Beautiful Layout</h2>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

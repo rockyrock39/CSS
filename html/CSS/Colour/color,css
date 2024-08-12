@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000002590_1708581210_scenery.jfif");
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+  }
+
+  #mainHeading {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(0, 217, 255);
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 4vw;
+  }
+
+  .backgroundExample {
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+
+  .textSection {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .textStyle {
+    color : #0b86f3;
+    font-family: "Times New Roman", serif;
+    font-weight: bolder;
+    font-size: 30px;
+    
+  }
+
+  img {
+    width: 40%;
+    height: 22rem;
+  }
+.footer{
+    background-color:#bc98ff;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}

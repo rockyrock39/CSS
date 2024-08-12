@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Nijas-Register</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to coding Ninjas</h1>
+        <hr />
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./courses.html">Courses</a>
+            <a href="./Contact.html">Contact Us</a>
+            <a href="./admin.html">Admin</a>
+
+        </nav>
+    </header>
+    <main>
+<form>
+        <h2>Create an Account</h2>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="usernm">Username:</label>
+                <input type="text" name="usernm" id="usernm">
+            </div>
+            <br/>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <br/>
+            <div>
+                <label for="usertype">User Type:</label>
+                <select id="usertype" name="usertype" >
+                    <option name="type">Select user type</option>
+                    <option name="Student">Student</option>
+                    <option name="Instructor">Instructor</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" >
+                    <option name="c1">Course1 - Web Development</option>
+                    <option name="c2">Course2 - Data Science Fundamentels</option>
+                    <option name="c3">Course3 - Digital Marketing Mastery</option>
+                    <option name="c4">Course4 - Anroid Development</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <input type="button" value="Register" name="Register" id="Register">
+            </div>
+        </fieldset>
+    </form>
+    </main>
+
+</body>
+
+</html>

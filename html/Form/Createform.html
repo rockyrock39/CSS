@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Form with Attributes</title>
+  </head>
+  <body>
+    <h1>Please Enter your Details</h1>
+<form action="/success.html" method="post" target="_blank">
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+    
+        <label for="firstname">First Nsme:</label>
+        <input type="text" id="firstname" name="firstname" required placeholder="John"/><br/>
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" name="LastName" required placeholder="doe"/><br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required 				  placeholder="john.doe@example.com" size=25/><br/>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required placeholder=""/><br/>
+        <label for="Gender">Gender:</label>
+        <Select id="Gender" value="Gender">
+             <Option value="Male">Male</Option>
+             <Option value="Female">Female</Option>
+            <Option value="Other">Other</Option>
+        </Select><br/>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Interests
+        </legend>
+        <input type="Checkbox" id="Music" name="Music" value="Music"  required>
+        <label for="Music">Music</label>
+        <input type="Checkbox" id="Sports" name="Sports" value="Sports"  required>
+        <label for="Sports">Sports</label>
+        <input type="Checkbox" id="Reading" name="Reading" value="Reading"  required>
+        <label for="Reading">Reading</label>
+        
+    </fieldset>
+    <fieldset>
+    <legend>
+        Location
+        </legend>
+        <label for="Country">Country:</label>
+        <Select id="Country" name="Country">
+        <optgroup label="Europe">
+            <option value="England">England</option>
+            <option value="Belgium">Belgium</option>
+            </optgroup>
+            <optgroup label="Asia">
+            <option value="India">India</option>\
+                 <option value="China">China</option>
+            </optgroup>
+        </Select><br/>
+        <label for="City" >City:</label>
+         <Select id="City" name="City">
+        <optgroup label="Europe">
+            <option value="London">London</option>
+             <option value="Bristol">Bristol</option>
+             </optgroup>
+            <optgroup label="Asia">
+            <option value="Delhi">Delhi</option>
+                <option value="Gurugram">Gurugram</option>
+             </optgroup>
+        </Select>
+    
+    </fieldset>
+    
+        <fieldset>
+    <legend>
+        Aditional Information
+        </legend>
+            <label for="Comment">Comment:</label>
+            <textarea id="Comment" name="Comment"cols=30 rows=10 placeholder="Your comments go here."></textarea><br/>
+    <label for="Profile">Profile Picture:</label>
+        <input type="file" id="Profile" name="Profile" accept="image/png, image/jpeg, image/jpg" required placeholder="" capture="camera"/>
+    
+    </fieldset>
+    
+            <fieldset>
+    <legend>
+        Submit Options
+        </legend>
+     <label for="Online">Preffered Submission Method:</label>
+                <input type="radio" name="submission" id="Online" value="Online" placeholder="online" required>
+                <label for="Online">Online</label>
+                <input type="radio" name="submission" id="offline" value="offline" placeholder="offline" required>
+                <label for="offline">Offline</label>
+                <br/>
+                <label for="sub">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="sub" value="yes"  name="sub" checked>
+    </fieldset>
+    
+
+        <Button type="submit" value="Submit" name="Submit">Submit</Button>
+        <Button type="reset" Value="Reset" name="reset">Reset</Button>
+
+    </form>
+  </body>
+</html>

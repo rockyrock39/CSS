@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photographer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          }
+          
+          header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+          }
+          
+          nav a {
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+          }
+          
+          .portfolio {
+            padding: 20px 10px;
+          }
+          
+          .gallery-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          }
+          
+          nav {
+            display: grid;
+            grid-template-columns: repeat(4, 180px);
+            gap: 20px;
+            place-content: center;
+          }
+          
+          .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 280px);
+            grid-auto-rows: 270px;
+            gap: 20px;
+            justify-content: center;
+            place-items: center;
+          
+          }
+          
+          .gallery-item img {
+            max-width: 100%;
+            height: auto;
+          }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <h2 style="text-align: center; margin-bottom: 30px">Featured Works</h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003391_1715857292_photo-1420745981456-b95fe23f5753.png"
+              alt="Photo 1"
+            />
+            <p>Photo 1</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003392_1715857309_photo-1526779259212-939e64788e3c-_1_.png"
+              alt="Photo 2"
+            />
+            <p>Photo 2</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003393_1715857327_photo-1549556289-9706946b9c56.png"
+              alt="Photo 3"
+            />
+            <p>Photo 3</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003394_1715857341_photo-1682687981630-cefe9cd73072.png"
+              alt="Photo 4"
+            />
+            <p>Photo 4</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

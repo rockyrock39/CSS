@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "Helvetica", sans-serif;
+            background-color: #f2f2f2; 
+            color: #333; 
+            text-align: center;
+          }
+          
+          h1 {
+            color: #ffffff; 
+            padding: 20px; 
+            margin-top: 20px;
+          }
+          
+          /* Room Styling */
+          .room {
+            border: 2px solid #00838f;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #fff; 
+            width: 250px;
+            display: inline-block;
+          }
+          .room h2{
+            color:  #00838f;
+            font-size: 24px;
+            margin-bottom: 10px;
+
+          }
+          .room p.room-type{
+            color:#616161;
+            font-size: 18px;
+            margin: 5px;
+          }
+          .room p.room-price{
+            color: #4caf50;
+            font-size: 16px;
+          }
+    </style>
+  </head>
+  <body>
+    <h1>Hotel Management System</h1>
+    <div id="room-1" class="room">
+      <h2 class="room-number">Room 101</h2>
+      <p class="room-type">Single</p>
+      <p class="room-price">$100 per night</p>
+    </div>
+
+    <div id="room-2" class="room">
+      <h2 class="room-number">Room 102</h2>
+      <p class="room-type">Double</p>
+      <p class="room-price">$150 per night</p>
+    </div>
+  </body>
+</html>
